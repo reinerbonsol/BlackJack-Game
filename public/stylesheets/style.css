@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  align-items: center;
+  overflow-x: hidden;
+  background-image: url("../assets/poker-table-background-green-color_47243-1073.jpg ");
+  color: antiquewhite;
+}
+.playbut{
+  margin-left: 25%;
+}
+.small-cards{
+  max-height: 150px;
+  padding: 10px;
+}
+.stuff{
+  color: black;
+}
+.stats-container {
+  border: solid 1px white;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  position: relative;
+  top: 0;
+}
+.dealer-hand {
+  border: solid 1px white;
+}
+.player-hand {
+  border: solid 1px white;
+}
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+.button-container {
+  border: solid 1px white;
+  position: fixed;
+  align-content: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  padding-left: 35%;
+  padding-right: 35%;
+  margin-top: 50px;
+  }
+button {
+  transform: translate(0%,-50%);
+  width: 100px;
+}
+#replay-btn {
+  align-content: center;
+  width: 100px;
+}
+
